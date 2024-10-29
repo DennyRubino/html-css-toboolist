@@ -63,6 +63,22 @@ margin: 0 auto;}
     padding: 8px 12px;
     border-radius: 20px;
 }
+.tag-1 {
+    
+        width: 75px; 
+        height: 30px; 
+        background-color: #025389; /
+        border: 2px solid #2980b9; 
+        border-radius: 0px; 
+        display: flex; 
+        justify-content: center; /
+        align-items: right; 
+        color: white; 
+        font-size: 16px; 
+        text-align: center; 
+    };
+}
+
 .tag-blue{
     color: blue;
 }
@@ -75,12 +91,19 @@ h2{
     font-family: "Raleway", sans-serif;
     margin-left: 50px;
 }
-.circe{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
+.circle {
+    width: 18px; 
+    height: 18px; 
+    background-color: transparent;
     border: 1px solid black;
-    border-radius: 100%;
-    text-align: center;
-    line-height: 40px;
+    border-radius: 100%; 
+    display: inline-block;
+    text-align: center; 
+}
+
+.dt{
+    border-radius: 20px;
+}
+p{
+  margin-left: 80px;
 }
