@@ -1,15 +1,37 @@
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
 /*-----------------------
 RESET
 ------------------------*/
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-body{
-    background-color:#f6f8f9;
+
+
+    background-color: #f6f8f9;
+
+header {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
 }
+
 h1 {
     display: inline-block;
     vertical-align: middle;
+    font-family: "Raleway", sans-serif;
+    margin-left: 10px;
+    font-size: 80px;
+}
+
+.logo {
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
 }
