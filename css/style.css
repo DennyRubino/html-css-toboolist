@@ -68,16 +68,16 @@ margin: 0 auto;}
         width: 75px; 
         height: 30px; 
         background-color: #025389; /
-        border: 2px solid #2980b9; 
-        border-radius: 0px; 
-        display: flex; 
+        border: 5px solid #2980b9; 
+        border-radius: 50px; 
+        display:inline-block; 
         justify-content: center; /
         align-items: right; 
         color: white; 
-        font-size: 16px; 
+        font-size: 14px; 
         text-align: center; 
     };
-}
+
 
 .tag-blue{
     color: blue;
@@ -90,6 +90,19 @@ h2{
     vertical-align: middle;
     font-family: "Raleway", sans-serif;
     margin-left: 50px;
+    font-size: 30px;
+}
+h3{display: inline-block;
+    vertical-align: middle;
+    font-family: "Raleway", sans-serif;
+    margin-left: 50px;
+font-size: 30px;}
+h4{display: inline-block;
+    vertical-align: middle;
+    font-family: "Raleway", sans-serif;
+    margin-left: 50px;
+font-size: 30px;}
+
 }
 .circle {
     width: 18px; 
