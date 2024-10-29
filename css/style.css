@@ -50,3 +50,37 @@ margin: 0 auto;}
     background-color:#ccc;
     font-family: "roboto", sans-serif;
 }
+.btn {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 6px;
+}
+.tag {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.tag-blue{
+    color: blue;
+}
+.tag-nero{
+    color: black;
+}
+h2{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Raleway", sans-serif;
+    margin-left: 50px;
+}
+.circe{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+}
